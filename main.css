@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    margin:0 auto;
+    padding:0 40px;
+    width:1440px;
+}
+.gallery-header{
+    width:1360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 0;
+    border-bottom:1px solid #E5E5E5;
+
+}
+.header-text{
+    font-family: Libre Baskerville;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.9px;
+    letter-spacing: 2.6;
+    text-transform: uppercase;
+    color: #7D7D7D;
+}
+.site-main{
+    padding-bottom:300px;
+}
+.gallery-list{
+    display:grid;
+    gap:40px;
+    list-style: none;
+    grid-template-columns:repeat(4,310px);
+    grid-auto-rows: 200px;
+    padding:40px 0;
+}
+.list-item{
+    background-color: green;
+    padding: 0 32px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-info{
+    position: absolute;
+    bottom:32px;
+}
+.item-title{
+    font-family: Libre Baskerville;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.76px;
+    color:white;   
+    margin-bottom:7px;
+}
+.item-text{
+    font-family: Libre Baskerville;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.12px;
+    color:white; 
+
+}
+.list-item:nth-child(1){
+    background-image: url("./images/Bitmap.png");
+}
+.list-item:nth-child(2){
+    grid-row: 1/3;
+    grid-column: 2/3;
+    background-image: url("./images/girl-with-earring.png");
+}
+.list-item:nth-child(3){
+    background-image: url("./images/guernice.png");
+}
+.list-item:nth-child(4){
+    background-image: url("./images/penitent.png");
+    grid-row: 1/3;
+    grid-column: 4/5;
+}
+.list-item:nth-child(5){
+    background-image: url("./images/storm.png");
+    grid-row: 2/4;
+    grid-column: 1/2;
+}
+.list-item:nth-child(6){
+    background-image: url("./images/kanagawa.png");
+    grid-row: 3/4;
+    grid-column:2/3 ;
+}
+.list-item:nth-child(7){
+    background-image: url("./images/selfportrait.png");
+    grid-row: 2/5;
+    grid-column: 3/4;
+}
+.list-item:nth-child(8){
+    background-image: url("./images/gypsy.png");
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+.list-item:nth-child(9){
+    background-image: url("./images/ermin.png");
+    grid-row: 4/7;
+    grid-column: 1/2;
+}
+.list-item:nth-child(10){
+    background-image: url("./images/night-cafe.png");
+    grid-row: 4/6;
+    grid-column: 2/3;
+}
+.list-item:nth-child(11){
+    background-image: url("./images/mona-lisa.png");
+    grid-row: 5/7;
+    grid-column: 3/4;
+}
+.list-item:nth-child(12){
+    background-image: url("./images/apples.png");
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+.list-item:nth-child(13){
+    background-image: url("./images/boy.png");
+    grid-row: 7/8;
+    grid-column: 1/2;
+}
+.list-item:nth-child(14){
+    background-image: url("./images/arnolfini.png");
+    grid-row: 6/8;
+    grid-column: 2/3;
+}
+.list-item:nth-child(15){
+    background-image: url("./images/gypsy.png");
+    grid-row: 7/8;
+    grid-column: 3/4;
+}
+.list-item:nth-child(16){
+    background-image: url("./images/swing.png");
+    grid-row: 5/8;
+    grid-column: 4/5;
+}
